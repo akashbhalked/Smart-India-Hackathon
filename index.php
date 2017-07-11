@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>Home Page</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+  <nav class="white" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="#" class="brand-logo">Logo</a>
+
+
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="#">Navbar Link</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+        <h1 class="header center text-lighten-2">Indian Railway</h1>
+        <div class="row center">
+
+        </div>
+        <div class="row center">
+          <a href="dashboard/Rlogin.php" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Login</a>
+        </div>
+        <br><br>
+
+      </div>
+    </div>
+    <div class="parallax"><img src="img/123.jpg" alt="Unsplashed background img 1"></div>
+  </div>
+
+
+  <div class="container">
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons dp48">info_outline</i></h2>
+            <h5 class="center">About</h5>
+
+            <p class="light">Indian Railways (reporting mark IR) is a state-owned railway company, responsible for rail transport in India. It is owned and operated by the Government of India through the Ministry of Railways. It is fourth largest railway network in the world</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons dp48">language</i></h2>
+            <h5 class="center">Working</h5>
+
+            <p class="light"> In 2015-16, IR carried 8.107 billion passengers annually or more than 22 million passengers a day and 1.101 billion tons of freight annually</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons dp48">view_module</i></h2>
+            <h5 class="center">Freight</h5>
+
+            <p class="light">Indian Railways earns about 70% of its revenues from freight traffic (₹686.2 billion from freight and ₹304.6 billion from passengers in 2011–12). Most of its profits come from transporting freight, and this makes up for losses on passenger traffic. </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <h1 class="header center text-lighten-2">Bhilai Steel plant</h1>
+        <div class="row center">
+          <h5 class="header col s12 light"></h5>
+        </div>
+         <div class="row center">
+          <a href="dashboard/Blogin.php" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Login</a>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="img/1234.jpg" alt="Unsplashed background img 2"></div>
+  </div>
+
+  <div class="container">
+    <div class="section">
+
+      <div class="row">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h4>About US</h4>
+          <p class="left-align light">The Bhilai Steel Plant (BSP), located in Bhilai, in the Indian state of Chhattisgarh, is India's first and main producer of steel rails, as well as a major producer of wide steel plates and other steel products. The plant also produces and markets various chemical by-products from its coke ovens and coal chemical plant.</p>
+          <p> </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+      <center><h2>Working Model</h2></center>
+      <div class="col s12">
+        <div class="card large" style="height:700px;">
+          <div class="card-image" style="height:700px;width:100%">
+            <img src="img/4.jpg">
+            <span class="card-title">Card Titile </span>
+           </div>
+      </div>
+      </div>
+  <footer class="page-footer teal">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">CodePoets</h5>
+          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+
+
+        </div>
+        <div class="col l3 s12">
+          <!--h5 class="white-text">Settings</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Link 1</a></li>
+            <li><a class="white-text" href="#!">Link 2</a></li>
+            <li><a class="white-text" href="#!">Link 3</a></li>
+            <li><a class="white-text" href="#!">Link 4</a></li>
+          </ul-->
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Connect</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Sitemap</a></li>
+            <li><a class="white-text" href="#!">About Us</a></li>
+            <li><a class="white-text" href="#!">Contact Indain Railway</a></li>
+            <li><a class="white-text" href="#!">Contact Bhilai Steel Plant</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">CODEPOETS</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
+</html>

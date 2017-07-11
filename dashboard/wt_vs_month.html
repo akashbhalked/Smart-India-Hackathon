@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <script type="text/javascript">
+  window.onload = function () {
+    var chart = new CanvasJS.Chart("chartContainer", {
+
+      title:{
+        text: "Weight vs month "              
+      },
+      data: [//array of dataSeries              
+        { //dataSeries object
+
+         /*** Change type "column" to "bar", "area", "line" or "pie"***/
+         type: "column",
+         dataPoints: [
+         { label: "January", y: 52.1 },
+         { label: "February", y: 82.4 },
+         { label: "March", y: 59.3 },                                    
+         { label: "April", y: 66.4  },
+         { label: "May", y: 71 },
+         { label: "June", y: 73},
+         { label: "July", y: 74.1 },
+         { label: "August", y: 76.99 },                                    
+         { label: "September", y: 58.92 },
+         { label: "October", y: 60.89},
+          { label: "November", y: 66.78 },
+         { label: "December", y: 62.90 }
+                  
+         ]
+       }
+       ]
+     });
+
+    chart.render();
+  }
+  </script>
+  <script type="text/javascript" src="http://canvasjs.com/assets/script/canvasjs.min.js"></script>
+</head>
+<body>
+  <div id="chartContainer" style="height: 300px; width: 100%;">
+  </div>
+</body>
+</html>

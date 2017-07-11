@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html>
+
+    <head>  
+        <script type="text/javascript">
+
+            var pausecontent = new Array();
+
+//            <?php
+//                $schd_arr = array(5,6,8,9);               
+//                foreach($schd_arr as $key => $val){ ?>                    
+//                pausecontent.push(  '<?php echo 5; ?>');                                                           
+//                 <?php } ?>
+                         window.onload = function () {
+                         var chart = new CanvasJS.Chart("chartContainer",
+                                                        {
+                             zoomEnabled: true,
+                             panEnabled: true, 
+                             title:{
+                                 text: "Price vs Month" 
+                             },
+                             legend: {
+                                 horizontalAlign: "right",
+                                 verticalAlign: "center"        
+                             },
+                             axisY:{
+                                 includeZero: false
+                             },
+                             data: data,  // random generator below
+                         });
+                         chart.render();
+                     }
+
+                     var limit = 1000;    //increase number of dataPoints by increasing this
+
+            var y = 0;
+            var data = []; var dataSeries = { type: "line" };
+            var dataPoints = [
+                { x:1, y:52.1 },
+                { x:2, y:82.4 } ,
+                { x:3, y:72.1} ,
+                { x:4, y:212.1 } ,
+				{ x:5, y:512.1 },
+                { x:6, y:82.4 } ,
+                { x:7, y:92.1} ,
+                { x:8, y:132.1 } ,
+				{ x:9, y:222.1 },
+                { x:10, y:182.4 } ,
+                { x:11, y:172.1} ,
+                { x:12, y:22.9 }
+            ];
+            
+                //		y += (Math.random() * 10 - 5);
+//                dataPoints.push({
+//                    y: 52.1 ,82.4,59.3, 66.4 ,71 ,73 ,74.1 ,76.99 ,58.92,
+//                    x: 1, 2 ,3 ,4 ,5 ,6 ,7 ,8 ,9,10,11,12              
+//                
+//            }
+            dataSeries.dataPoints = dataPoints;
+            data.push(dataSeries);   
+
+        </script>
+        <script type="text/javascript" src="http://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    </head>
+    <body>
+        <div id="chartContainer" style="height: 300px; width: 100%;">
+        </div>
+
+    </body>
+    
+
+</html>
